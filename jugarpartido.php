@@ -1,14 +1,12 @@
 <?php
-
+/*
 include 'equipo.php';
 include 'partido.php';
 include 'cargarEquipos.php';
-
-$amistoso = new Partido();
-$amistoso->addLocal($equipo[0]);
-$amistoso->addVisita($equipo[3]);
-
-$amistoso->resultado(3,2);
+    $amistoso = new Partido();
+    $amistoso->addLocal($local);
+    $amistoso->addVisita($visita);
+    $amistoso->resultado(3,2);
 
 echo $equipo[0]->getNombre();
 echo $equipo[0]->getVictorias();
@@ -27,5 +25,6 @@ echo $equipo[3]->getGoles();
 echo $equipo[3]->getRecibidos();
 echo $equipo[3]->getPuntos();
 echo $equipo[3]->getDiferencia();
+*/
 
 ?>
